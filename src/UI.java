@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public interface UI {
+import java.util.function.Function;
+
+public interface UI {
+    void show(String s);
+    void get(Function<String, Void> p);
 }
